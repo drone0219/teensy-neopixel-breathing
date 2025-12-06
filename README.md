@@ -1,4 +1,4 @@
-# 🎨 ESP32/Teensy NeoPixel Breathing LED Controller
+# 🎨 Teensy/Teensy NeoPixel Breathing LED Controller
 
 > **Interactive LED Installation Controller** with beautiful breathing animations, sensor triggers, and video synchronization.
 
@@ -26,7 +26,7 @@ A sophisticated embedded systems project featuring a finite state machine-based 
 - **Debouncing** - PLC-style industrial-grade input filtering
 
 ### 🔌 Hardware Support
-- **ESP32** or **Teensy 3.6** microcontroller
+- **Teensy** or **Teensy 3.6** microcontroller
 - **22 NeoPixel LED Strips** (WS2812B compatible)
 - **8 parallel data pins** for high-speed LED control
 - **22 interactive sensor inputs** (light sensors, buttons, etc.)
@@ -79,7 +79,7 @@ A sophisticated embedded systems project featuring a finite state machine-based 
 ## 🚀 Getting Started
 
 ### Hardware Requirements
-- Microcontroller: Teensy 3.6 or ESP32
+- Microcontroller: Teensy 3.6 or Teensy
 - 22× NeoPixel LED strips (WS2812B, 16 LEDs per strip)
 - 1× Power button (19mm illuminated switch)
 - 22× Light sensor modules (IR or similar)
@@ -109,7 +109,7 @@ A sophisticated embedded systems project featuring a finite state machine-based 
    ```
 
 4. **Upload to Device**
-   - Select board: Teensy 3.6 or ESP32
+   - Select board: Teensy 3.6 or Teensy
    - Select COM port
    - Upload sketch
 
